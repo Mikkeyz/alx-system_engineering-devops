@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -i "ban" /etc/passwd wc -1
+grep -i "ban" /etc/passwd | wc -1
